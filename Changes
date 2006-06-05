@@ -1,0 +1,23 @@
+Revision history for Perl extension JavaScript::Lint.
+
+0.04  Mon Jun  5 21:25:57 BST 2006
+    - Renamed to JavaScript::JSLint to more accurately reflect the underlying
+      software in use.
+    - Added more tests/docs for the HTML side of things.
+    - Stop after invalid options in bin/jslint.
+
+0.03  Sun Jun  4 11:42:08 BST 2006
+    - Urgh.  Allow an empty string to be linted correctly.
+    - Ensure the correct exit code comes out of the jslint command line tool.
+
+0.02  Sun Jun  4 10:20:13 BST 2006
+    - Turn a fatal error into something more readable.  It happens that I
+      missed a comment in the JSLint source pointing out that it returned
+      nulls...
+    - Allow passing in options to jslint().
+    - Add in options to the jslint command line tool as well.
+
+0.01  Fri Jun  2 14:07:53 2006
+	- original version; created by h2xs 1.23 with options
+		-AX -n JavaScript::Lint
+
