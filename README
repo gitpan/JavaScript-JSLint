@@ -5,6 +5,8 @@ JavaScript::Lint is a small wrapper around Douglas Crockford's wonderful
 jslint tool.  It provides not only a convenient command line interface,
 but a small library enabling its use from inside Perl.
 
+The original JSLint is at <http://jslint.com/>.
+
 INSTALLATION
 
 To install this module type the following:
@@ -19,6 +21,9 @@ DEPENDENCIES
 This module requires these other modules and libraries:
 
   JavaScript.pm
+  
+NB: That module does require you to have the C library "spidermonkey"
+installed.  See <http://www.mozilla.org/js/spidermonkey/> for details.
 
 COPYRIGHT AND LICENCE
 
@@ -48,4 +53,4 @@ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
 OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE.
 
-@(#) $Id: README 1169 2006-06-05 20:38:51Z dom $
+@(#) $Id: README 1324 2007-04-28 09:44:55Z dom $

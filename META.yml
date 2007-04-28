@@ -1,6 +1,6 @@
 ---
 name: JavaScript-JSLint
-version: 0.04
+version: 0.06
 author:
   - 'Dominic Mitchell <cpan (at) happygiraffe.net>'
 abstract: Check JavaScript code for problems
@@ -14,8 +14,8 @@ requires:
 provides:
   JavaScript::JSLint:
     file: lib/JavaScript/JSLint.pm
-    version: 0.04
-generated_by: Module::Build version 0.2801
+    version: 0.06
+generated_by: Module::Build version 0.2807
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2
